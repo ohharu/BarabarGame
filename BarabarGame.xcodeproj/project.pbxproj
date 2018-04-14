@@ -12,6 +12,10 @@
 		CB44926720723372007E5728 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB44926520723372007E5728 /* Main.storyboard */; };
 		CB44926920723372007E5728 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB44926820723372007E5728 /* Assets.xcassets */; };
 		CB44926C20723372007E5728 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB44926A20723372007E5728 /* LaunchScreen.storyboard */; };
+		CB44927620723687007E5728 /* tail.png in Resources */ = {isa = PBXBuildFile; fileRef = CB44927420723687007E5728 /* tail.png */; };
+		CB44927720723687007E5728 /* bar.png in Resources */ = {isa = PBXBuildFile; fileRef = CB44927520723687007E5728 /* bar.png */; };
+		CB44927920723820007E5728 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB44927820723820007E5728 /* GameViewController.swift */; };
+		CB44927B20723853007E5728 /* RankingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB44927A20723853007E5728 /* RankingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		CB44926820723372007E5728 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB44926B20723372007E5728 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB44926D20723372007E5728 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB44927420723687007E5728 /* tail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tail.png; sourceTree = "<group>"; };
+		CB44927520723687007E5728 /* bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bar.png; sourceTree = "<group>"; };
+		CB44927820723820007E5728 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		CB44927A20723853007E5728 /* RankingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +46,8 @@
 		CB44925520723371007E5728 = {
 			isa = PBXGroup;
 			children = (
+				CB44927A20723853007E5728 /* RankingViewController.swift */,
+				CB44927820723820007E5728 /* GameViewController.swift */,
 				CB44926020723372007E5728 /* BarabarGame */,
 				CB44925F20723372007E5728 /* Products */,
 			);
@@ -57,11 +67,21 @@
 				CB44926120723372007E5728 /* AppDelegate.swift */,
 				CB44926320723372007E5728 /* ViewController.swift */,
 				CB44926520723372007E5728 /* Main.storyboard */,
+				CB44927320723687007E5728 /* Barabara素材 */,
 				CB44926820723372007E5728 /* Assets.xcassets */,
 				CB44926A20723372007E5728 /* LaunchScreen.storyboard */,
 				CB44926D20723372007E5728 /* Info.plist */,
 			);
 			path = BarabarGame;
+			sourceTree = "<group>";
+		};
+		CB44927320723687007E5728 /* Barabara素材 */ = {
+			isa = PBXGroup;
+			children = (
+				CB44927420723687007E5728 /* tail.png */,
+				CB44927520723687007E5728 /* bar.png */,
+			);
+			path = "Barabara素材";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB44926C20723372007E5728 /* LaunchScreen.storyboard in Resources */,
+				CB44927720723687007E5728 /* bar.png in Resources */,
+				CB44927620723687007E5728 /* tail.png in Resources */,
 				CB44926920723372007E5728 /* Assets.xcassets in Resources */,
 				CB44926720723372007E5728 /* Main.storyboard in Resources */,
 			);
@@ -137,7 +159,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB44926420723372007E5728 /* ViewController.swift in Sources */,
+				CB44927920723820007E5728 /* GameViewController.swift in Sources */,
 				CB44926220723372007E5728 /* AppDelegate.swift in Sources */,
+				CB44927B20723853007E5728 /* RankingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
